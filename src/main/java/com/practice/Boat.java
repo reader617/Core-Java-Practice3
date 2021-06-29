@@ -1,21 +1,17 @@
 package com.practice;
 
-public class Boat 
-{
+public class Boat {
 	private int length;
-	
-	public void setLength(int len)
-	{
+
+	public void setLength(int len) {
 		length = len;
 	}
-	
-	public int getLength()
-	{
+
+	public int getLength() {
 		return length;
 	}
-	
-	public void move()
-	{
+
+	public void move() {
 		System.out.println("drift");
 	}
 }
